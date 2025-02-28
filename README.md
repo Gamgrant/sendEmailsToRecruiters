@@ -29,6 +29,7 @@ EMAIL_SCRIPT_URL = "blah-blah-blah"
 ### ✉️ Generate Personalized Emails
 - **Populate Emails**: Creates recruiter outreach emails if empty.
 - Updates Google Sheet with generated emails.
+- Email won't get send if one or more  required fields aren't present
 
 ### 🚀 Automated Email Sending (via Google Apps Script)
 - Marks emails as "Pending" and triggers Apps Script:
@@ -47,9 +48,12 @@ EMAIL_SCRIPT_URL = "blah-blah-blah"
 - **Data Storage**: Google Sheets
 
 ## 🛠 Setup
-* your spreadsheet header should look like this, make sure to have 3 recruiter emails per company.
-| recruiter1 | recruiter1_email | recruiter2 | recruiter2_email | recruiter3 | recruiter3_email | company_name | position | job_description | date_applied | skill_alignment | entire_email1 | entire_email2 | entire_email3 | sent1 | sent2 | sent3 |
-|------------|-----------------|------------|-----------------|------------|-----------------|--------------|---------|----------------|-------------|----------------|--------------|--------------|--------------|------|------|------|
+
+Make sure your spreadsheet header follows this format, with **three recruiter emails per company**:
+
+| recruiter1 | recruiter1_email  | recruiter2 | recruiter2_email  | recruiter3 | recruiter3_email  | company_name | position | job_description | date_applied | skill_alignment | entire_email1 | entire_email2 | entire_email3 | sent1 | sent2 | sent3 |
+|------------|------------------|------------|------------------|------------|------------------|--------------|----------|-----------------|--------------|----------------|---------------|---------------|---------------|-------|-------|-------|
+
 
 ### 1️⃣ Enable Google Sheets API & Create Service Account
 1. **Create Google Cloud Project**: Google Cloud Console → "Select a project" → Name it.
