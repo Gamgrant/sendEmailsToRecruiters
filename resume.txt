@@ -1,0 +1,121 @@
+
+EDUCATION
+ 
+GRANT OVSEPYAN
++1 (608) 216-5392 | grovse1999@gmail.com | linkedin.com/in/grant-ovs/ | github.com/Gamgrant
+ 
+
+ 
+
+Carnegie Mellon University	September 2023 - December 2024
+Master's, Artificial Intelligence Engineering	GPA: 3.81
+
+University of Wisconsin - Madison	August 2018 - August 2023
+Bachelor's, Computer Science; Bachelor's, Chemical Engineering	GPA: 3.6
+PROFESSIONAL EXPERIENCE
+GE Healthcare, Software Development Intern	Waukesha, WI, USA
+TLDR: C++, serialization, multithreading, automated testing pipelines.                                                             May 2024 - August 2024
+•	Replaced cpprest JSON with a custom serialization protocol across ~200 files, implementing multithreading to enhance processing speed and security for cross-platform, multi-language support.
+•	Developed automated testing pipelines utilizing Snowflake OLAP database to process and validate large volumes of MRI scan data across multiple platforms, including Windows, Linux, and macOS.
+•	Optimized data access patterns during infrastructure migration by designing a custom serialization protocol for efficient querying and cross-platform data retrieval across 200+ files.
+Mandli Communications, Inc., Software Development Intern	Madison, WI, USA
+TLDR: C++, lane detection accuracy, GPU profiling, real-time data streaming, low latency                        January 2023 - July 2023
+•	Fine-tuned CLRNet on Mandli’s proprietary dataset using the CULane dataset as a baseline, achieving a 15% improvement in lane- detection accuracy for in-house applications. Developed custom feature extraction algorithms and applied advanced image processing techniques for real-time traffic analysis.
+•	Performed GPU profiling during model training to optimize resource utilization and reduce latency, identifying key bottlenecks in the data pipeline. These optimizations accelerated training speed by 25%.
+•	Engineered a client-server architecture for efficient LiDAR data processing, incorporating real-time data streaming using ROS2, eliminating the need for physical data transfers. Enhanced system scalability and reliability for autonomous navigation systems.
+
+Additive Manufacturing Laboratory, Research Assistant	Madison, WI, USA
+TLDR: Optimizing algorithms for physics simulations, publication.                                                       January 2019 - March 2023
+•	Improved printing precision 100x using MATLAB COMSOL API for thermal simulation-driven topology optimization.
+•	Designed a user interface to enhance usability and published results at Nature Communications (DOI: 10.1038/s41467-024-48159-7).
+•	Created firmware and slicing software for multi-material 3D printing, ensuring precise G-code execution and enhanced accuracy.
+
+Koch Industries: Flint Hills Resources, Data Science Intern                                                                                    Rosemount, MN, USA    
+TLDR: Machine learning model fine-tuning, advanced analytics and forecasting 	May 2022 - August 2022
+•	Fine-tuned and adapted 60+ machine learning models for equipment analysis, deploying data-driven optimizations to enhance predictive accuracy and operational efficiency. Enabled field engineers in the crude unit to make critical, data-backed decisions.
+•	Used Facebook Prophet and Seeq API for advanced data analytics, boosting forecasting accuracy and reducing processing time by 23%.
+
+AI PROJECTS
+
+RAG System using LLaMA-3, Mistral, and DeepSeek LLMs / Python,LangChain, Pinecone
+TLDR: Retrieval-augmented generation (RAG), data scraping, vector search
+•	Automated data scraping using Selenium for dynamic web pages and expandable content, capturing multi-level embedded data.
+•	Extracted structured data from static HTML using BeautifulSoup, Requests, and lxml, employing XPath for precise parsing.
+•	Used Pinecone's multilingual-e5-large embeddings and Chroma vector store, enabling efficient vector similarity search for retrieval.
+•	Incorporated retrieved context in prompts using LangChain with LLaMA-3, Mistral, DeepSeek models, leading to significant accuracy improvements over baseline models without retrieval augmentation.
+
+ MiniLLAMA / PyTorch, Python
+ TLDR: Fine-tuning LLaMA, efficient training techniques, distributed model parallelism.
+•	Implemented fine-tuning of LLaMA, utilizing gradient accumulation and mixed precision (fp16) to reduce memory consumption.
+•	Leveraged PyTorch Lightning for distributed training, integrating DataParallel and ModelParallel strategies.
+•	Applied LoRA for efficient fine-tuning, reducing the number of trainable parameters while maintaining high performance.
+•	Tuned optimizers (AdamW, Adafactor) and learning rate schedules (Cosine Annealing, Linear Warmup) to balance computation and convergence speed. 
+
+FIFA Performance Prediction Model /Python, PySpark, PostgreSQL
+TLDR: Cloud-based data pipeline, predictive modeling, PySpark scalability, PostgreSQL database			      
+•	Designed and implemented cloud-based architecture of GCP managing PostgreSQL database for efficient handling of FIFA player statistics using complex joins, window functions, and transaction control for performance metrics processing
+•	Enhanced system scalability through PySpark, utilizing BigQuery and Dataflow for batch/stream processing, while parallelizing predictive models (SVM, Random Forest) with automated hyperparameter tuning via Spark MLlib for improved processing efficiency.
+
+Audio-Guided Album Cover Art Generation / PyTorch, Python 	
+TLDR: Generative album art, audio/text conditioning, Stable Diffusion, large-scale data scraping.			
+•	Conditioned Stable Diffusion on CLIP for text, integrated ControlNet, Cross Attention for audio features to generate album cover art.
+•	Used YouTube, Wikipedia and Genius, as well as BeautifulSoup, requests, pandas, numpy and urllib packages and multithreading to
+•	extract relevant data for scraping music albums from 1980 to 2024 using .csv/.json formats (ETL).
+•	Set-up Spotify API for data preprocessing, extracting audio features, album genres and cover art for input in generative model.
+
+Program Selection Using Code Execution Agents / Python, CodeT NLP Lead
+TLDR: Program selection optimization, Bayesian inference, benchmark analysis
+•	Re-implemented the CodeT algorithm to improve program selection accuracy in code generation tasks, achieving significant
+•	improvements in pass@1 and pass@k scores on HumanEval and MBPP benchmarks.
+•	Conducted a comparative study on state-of-the-art methods for program selection, including MBR-Exec and Reflexion, highlighting their limitations in handling syntactically plausible but functionally incorrect code.
+•	Proposed an enhancement to CodeT using Bayesian inference for more informative test-case selection, aimed at increasing the likelihood
+•	of identifying functionally accurate programs using CodeLLaMA-13b and Qwen-2.5-Coder-7B.
+
+Autonomous driving using SafeBench and CARLA simulator
+TLDR: Object detection, CARLA autonomous driving simulator
+•	Led rigorous evaluations and enhancements of perception models within the "Trustworthy AI" course, focusing on autonomous driving applications using SafeBench and CARLA simulator.
+•	Implemented and analyzed object detection metrics for cutting-edge models including YOLOv5 and Faster R-CNN, enhancing detection performance under varied conditions.
+•	Designed and tested adversarial patches to assess robustness of AI models against simulated real-world adversarial conditions, utilizing precision-recall curves and average precision metrics across multiple IoU thresholds.
+•	Configured and managed cloud-based AI systems on AWS EC2, optimized GPU setups, and facilitated real-time simulations and debugging via remote desktop environments with TurboVNC.
+FULL STACK PROJECTS
+	
+      
+Full-Stack Muscle App / React Native, Expo, Nativewind, Animatable, Appwrite
+TLDR: workout app with personalized recommendations, MariaDB-backed database, and elastic search 		         
+•	Developed a Muscle App to analyze workout routines and provide personalized recommendations for optimal muscle growth.
+•	Implemented a robust authentication system, dynamic home screen, full-text search, and tab navigation for seamless user experience.
+
+Full-Stack Image Processing / Next.js, TypeScript, AWS Lambda, Gateway, S3, DynamoDB
+TLDR: Real-time background removal, scalable cloud-based architecture.	                 
+•	Developed web app with real-time background removal using Next.js, TypeScript, and AWS Lambda. Integrated Amazon S3
+with pre-signed URLs, triggering Lambda functions to invoke the remove.bg API for image processing.
+•	Employed OpenCV for contour detection and Pillow for dynamic text wrapping on processed images. Leveraged DynamoDB for logging metadata, ensuring scalable cloud-based architecture and optimized performance.
+
+Stock Price Prediction Platform
+TLDR: Full-stack stock tracker with LSTM-based prediction, real-time market data, and sentiment-driven volatility detection.
+•	Developed a full-stack stock tracking app with React Native & Appwrite, integrating Alpaca API to authenticate users and
+dynamically sync their portfolios, optimizing API usage with cached stock data.
+•	Built a Flask backend on DigitalOcean using Nginx & Gunicorn, implementing a cron job to fetch & store stock prices for all user-
+owned companies in Appwrite DB, reducing redundant API calls.
+•	Engineered a modified LSTM model for stock price prediction, incorporating historical market trends & trading volume, optimized
+with low-latency inference for real-time forecasting via a Flask API.
+•	Implemented news sentiment-driven stock fluctuation detection by extracting Alpaca’s news feed API, analyzing sentiment with a ChatGPT-informed Graph Neural Network, and flagging potential volatility triggers.
+
+KERNEL PROGRAMMING PROJECT
+      
+Running WASM3 in the Linux kernel 
+TLDR: WebAssembly execution in Linux kernel, dynamic loading, modular kernel processing.
+•	Developed a Linux kernel module that dynamically loads and executes WebAssembly (WASM) bytecode from user space using the Wasm3 interpreter, enabling modular and efficient in-kernel processing.
+•	Implemented an ioctl-based interface to securely handle communication between user-space applications and the kernel module, facilitating the transmission of WASM binaries and execution commands.
+•	Exposed native kernel functions to WASM modules by binding functions through Wasm3's API, ensuring robust memory management 
+
+SKILLS
+
+•	Programming Languages: Python, Java, C++, SQL, Bash, JavaScript, TypeScript, Scala, Swift, R, Julia, MATLAB
+•	Frameworks & Libraries: TensorFlow, PyTorch, scikit-learn, Keras, NLTK, OpenCV, Pandas, NumPy, PySpark, Hugging Face, Flask, React Native, Next.js, Firebase
+•	Cloud & DevOps: AWS (SageMaker, Lambda, DynamoDB, S3, API Gateway), GCP (BigQuery, Dataflow, AI Platform), Azure ML, Docker, Kubernetes, Jenkins, Git, CI/CD
+•	Databases: MySQL, PostgreSQL, MongoDB, DynamoDB, Snowflake, Bigtable
+•	Big Data & Distributed Systems: Hadoop, Apache Spark, Apache Kafka
+•	Tools & Software: AutoCAD, MATLAB COMSOL, PTC Creo, Tableau, Power BI, Minitab
+•	maintaining system security during execution 
+
